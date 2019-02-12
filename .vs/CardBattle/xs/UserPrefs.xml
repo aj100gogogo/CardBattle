@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{112BBB9B-1B8E-577E-5E34-C957AE9239BE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/SummonManager.cs">
+    <Files>
+      <File FileName="Assets/Script/LobbyManager.cs" Line="83" Column="35" />
+      <File FileName="Assets/Script/CharLibrary.cs" Line="12" Column="1" />
+      <File FileName="Assets/Script/Char.cs" Line="11" Column="1" />
+      <File FileName="Assets/Script/SummonManager.cs" Line="3" Column="1" />
+      <File FileName="Assets/Script/BattleManager.cs" Line="5" Column="1" />
+      <File FileName="Assets/Script/LibraryManager.cs" Line="7" Column="1" />
+      <File FileName="Assets/Script/LibraryContent.cs" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
