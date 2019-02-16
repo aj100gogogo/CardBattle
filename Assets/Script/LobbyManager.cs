@@ -32,7 +32,7 @@ public class LobbyManager : MonoBehaviour
     public Button m_btnBackInLibrary;
     public Button m_btnBackAfterSummon;
     public Button m_btnBackAfterBattle;
-    public static List<Char> playerCards = new List<Char>();
+    public static List<Card> playerCards = new List<Card>();
 
     //initiate and set buttons
     void Start()
@@ -69,8 +69,8 @@ public class LobbyManager : MonoBehaviour
         GameObject[] cards = new GameObject[] { player01, player02, player03, enemy01, enemy02, enemy03 };
         foreach (GameObject card in cards)
         {
-            SummonManager summonManager = new SummonManager();
-            summonManager.ShowCardS(card);
+            SummonUnit summonUnit = new SummonUnit();
+            summonUnit.ShowCardS(card);
         }
     }
 
@@ -79,8 +79,8 @@ public class LobbyManager : MonoBehaviour
         m_lobby.SetActive(false);
         m_library.SetActive(true);
 
-        LibraryManager libraryManager = gameObject.AddComponent(typeof(LibraryManager)) as LibraryManager;
-        libraryManager.ShowList();
+        LibraryUnit libraryUnit = gameObject.AddComponent(typeof(LibraryUnit)) as LibraryUnit;
+        libraryUnit.ShowList();
     }
 
     void SummonOnce()
@@ -89,9 +89,8 @@ public class LobbyManager : MonoBehaviour
         m_summonGet1.SetActive(true);
         m_summonGet5.SetActive(false);
 
-        SummonManager summonManager = gameObject.AddComponent(typeof(SummonManager)) as SummonManager;
-        summonManager.ShowCardL(card00);
-        Debug.Log(playerCards);
+        SummonUnit summonUnit = gameObject.AddComponent(typeof(SummonUnit)) as SummonUnit;
+        summonUnit.ShowCardL(card00);
     }
 
     void SummonFiveTimes()
@@ -103,8 +102,8 @@ public class LobbyManager : MonoBehaviour
         GameObject[] cards = new GameObject[] { card01, card02, card03, card04, card05 };
         foreach (GameObject card in cards)
         {
-            SummonManager summonManager = gameObject.AddComponent(typeof(SummonManager)) as SummonManager;
-            summonManager.ShowCardM(card);
+            SummonUnit summonUnit = gameObject.AddComponent(typeof(SummonUnit)) as SummonUnit;
+            summonUnit.ShowCardM(card);
         }
     }
 

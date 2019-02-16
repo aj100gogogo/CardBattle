@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class CharLibrary : MonoBehaviour
+public class CardLibrary : MonoBehaviour
 {
     static readonly int numOfChar = 20;
     public static string[] charNames = new string[numOfChar];

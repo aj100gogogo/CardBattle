@@ -60,13 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\BattleManager.cs" />
-    <Compile Include="Assets\Script\Char.cs" />
-    <Compile Include="Assets\Script\CharLibrary.cs" />
+    <Compile Include="Assets\Script\BattleUnit.cs" />
+    <Compile Include="Assets\Script\Card.cs" />
+    <Compile Include="Assets\Script\CardLibrary.cs" />
     <Compile Include="Assets\Script\LibraryContent.cs" />
-    <Compile Include="Assets\Script\LibraryManager.cs" />
+    <Compile Include="Assets\Script\LibraryUnit.cs" />
     <Compile Include="Assets\Script\LobbyManager.cs" />
-    <Compile Include="Assets\Script\SummonManager.cs" />
+    <Compile Include="Assets\Script\SummonUnit.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/NABO/Documents/ＭＭ/專案/CardBattle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class BattleManager
+public class BattleUnit
 {
 
 }
