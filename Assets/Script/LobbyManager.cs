@@ -81,6 +81,7 @@ public class LobbyManager : MonoBehaviour
 
         LibraryUnit libraryUnit = gameObject.AddComponent(typeof(LibraryUnit)) as LibraryUnit;
         libraryUnit.ShowList();
+
     }
 
     void SummonOnce()
@@ -114,5 +115,7 @@ public class LobbyManager : MonoBehaviour
         m_library.SetActive(false);
         m_summonResult.SetActive(false);
         m_lobby.SetActive(true);
+        LibraryUnit libraryUnit = gameObject.AddComponent(typeof(LibraryUnit)) as LibraryUnit;
+        //libraryUnit.DestroyObj();
     }
 }

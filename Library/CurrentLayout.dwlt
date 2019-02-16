@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 262
     height: 428
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -337,9 +337,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc2e0000
-      m_LastClickedID: 11996
-      m_ExpandedIDs: fcdaffffa8edffffd8edffffc6f8ffffce2e0000dc2e0000e22e0000762f00007a2f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52faffff7efaffffd4fbffff580d0000660d00006c0d0000000e0000040e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 12150
+  m_LastSelectedObjectID: 3584
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -653,20 +653,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Prefab
+    - Assets/Script
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Prefab
+  - Assets/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/Users/NABO/Documents/\uFF2D\uFF2D/\u5C08\u6848/CardBattle"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 55}
-    m_SelectedIDs: 462d0000
-    m_LastClickedID: 11590
-    m_ExpandedIDs: 00000000a42b0000582c0000602d000000ca9a3b
+    m_SelectedIDs: 2c0c0000
+    m_LastClickedID: 3116
+    m_ExpandedIDs: 0000000066090000460a0000820b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -694,7 +694,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a42b0000582c0000602d0000
+    m_ExpandedIDs: 0000000066090000460a0000820b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
