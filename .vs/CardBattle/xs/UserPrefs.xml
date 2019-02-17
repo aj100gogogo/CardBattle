@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{112BBB9B-1B8E-577E-5E34-C957AE9239BE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LobbyManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LibraryUnit.cs">
     <Files>
       <File FileName="Assets/Script/LobbyManager.cs" Line="110" Column="5" />
       <File FileName="Assets/Script/CardLibrary.cs" Line="2" Column="1" />

@@ -116,6 +116,5 @@ public class LobbyManager : MonoBehaviour
         m_summonResult.SetActive(false);
         m_lobby.SetActive(true);
         LibraryUnit libraryUnit = gameObject.AddComponent(typeof(LibraryUnit)) as LibraryUnit;
-        //libraryUnit.DestroyObj();
     }
 }

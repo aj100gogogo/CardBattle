@@ -5,8 +5,11 @@ public class LibraryUnit : MonoBehaviour
 {
     public void ShowList()
     {
-        GameObject obj = GameObject.Find("/Canvas/library/Scroll View/Viewport/Content/libraryContent(Clone)");
-        Destroy(obj);
+        for (int i = 0; i < LobbyManager.playerCards.Count; i ++)
+        {
+            GameObject obj = GameObject.Find("/Canvas/library/Scroll View/Viewport/Content/libraryContent(Clone)");
+            Destroy(obj);
+        }
 
         GameObject content = GameObject.Find("/Canvas/library/Scroll View/Viewport/Content");
         GameObject go = Resources.Load<GameObject>("Prefab/libraryContent");
@@ -23,10 +26,4 @@ public class LibraryUnit : MonoBehaviour
             listObj.transform.SetParent(content.transform);
         }
     }
-
-    //public void DestroyObj()
-    //{
-    //    GameObject obj = GameObject.Find("/Canvas/library/Scroll View/Viewport/Content/libraryContent(Clone)");
-    //    Destroy(obj);
-    //}
 }
